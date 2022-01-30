@@ -29,12 +29,4 @@ void ASCSplitScreenController::OnToggleSplitScreen(AActor* Context, bool bStatus
 {
 	if (Context) {
 		Context->GetWorld()->GetGameViewport()->SetDisableSplitscreenOverride(bStatus);
-
-		if (bStatus) 
-		{
-
-		}
-
-
-	}
 }
